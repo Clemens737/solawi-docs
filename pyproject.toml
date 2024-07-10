@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "solawi-docs"
+version = "0.1.0"
+description = "docs for Solidarische Landwirtschaft Stadt, Land, Beides e.V."
+authors = ["Clemens Brachmann <clemensbrachmann@gmx.de>"]
+license = "CC BY 4.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+mkdocs-material = "^9.5.28"
+mkdocs = "^1.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

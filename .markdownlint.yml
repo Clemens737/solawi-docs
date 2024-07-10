@@ -1,0 +1,58 @@
+# markdownlint rules: https://github.com/DavidAnson/markdownlint/blob/main/schema/.markdownlint.yaml
+
+# Enable all default markdownlint rules
+# see: https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md
+default: true
+
+# MD007/ul-indent
+# https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md#md007
+# Set: list indent level to 4 which Python-Markdown (mkdocs) requires!!!
+# Aliases: ul-indent
+# Default: "ident": 2, "start_indented": false
+MD007:
+    indent: 4
+
+# MD013/line-length
+# https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md#md013
+# Disable: line length check
+# Aliases: line-length
+MD013: false
+
+# MD024/no-duplicate-heading/no-duplicate-header - Multiple headings with the same content
+# https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md#md024
+MD024:
+    # Only check sibling headings
+    siblings_only: true
+
+# MD033/no-inline-html
+# https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md#md033
+# Allow: inline HTML
+# Aliases: no-inline-html
+MD033:
+    allowed_elements:
+    - tr
+    - td
+    - table
+    - style
+    - thead
+    - tbody
+    - th
+    - svg
+    - path
+    - a
+    - details
+    - summary
+    - figcaption
+    - br
+    - ol
+    - ul
+    - li
+    - video
+    - source
+    - iframe
+
+# MD036/no-emphasis-as-heading
+# https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md#md036
+# Disable: Emphasis used instead of a heading
+# Aliases: no-emphasis-as-heading, no-emphasis-as-header
+MD036: false
