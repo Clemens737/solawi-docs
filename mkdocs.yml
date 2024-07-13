@@ -1,8 +1,6 @@
 site_name: Solawi Stadt, Land, Beides
 # site_url:
 
-docs_dir: docs
-
 theme:
   name: material
   palette:
