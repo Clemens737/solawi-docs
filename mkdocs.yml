@@ -1,12 +1,42 @@
-site_name: My Docs
+site_name: Solawi Stadt, Land, Beides
 # site_url:
 
 theme:
   name: material
   palette:
-    scheme: slate # default
-    primary: green
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate # default
+      primary: green
+      accent: orange
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to light mode
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: green
+      accent: orange
+      toggle:
+        icon: material/brightness-4
+        name: Switch to dark mode
+    - features:
+        - navigation.expand
+        - navigation.tabs
+        - navigation.tabs.sticky
+        - navigation.indexes
+      
+nav: 
+  - Wilkommen: index.md
+  - Einführung: einfuehrung.md
+  - Für Mitglieder: 
+    - Mitgliedschaft anlegen: fuer_mitglieder/mitgliedschaft_anlegen.md
+  
+
+markdown_extensions: 
+  - neoteroi.cards
 
 plugins: 
   - search
-  - material/offline
+  - offline
+

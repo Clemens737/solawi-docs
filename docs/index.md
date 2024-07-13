@@ -1,12 +1,16 @@
-# Solidarische Landwirtschaft Stadt, Land, Beides
+# Solidarische Landwirtschaft Stadt, Land, Beides Dokumentation
 
-Diese Webseite ist eine Sammelstelle aller wichtigen Informationen rund um unsere Solawi, wie beispielsweise
+Diese Webseite dient Sammelstelle aller wichtigen Informationen rund um [unsere Solawi](https://stadt-land-beides.de/).  
 
-- Informationen für Mitglieder
+Klicke auf die Schaltflächen, um direkt zu den Themen zu springen.  
+
+## Informationen für Mitglieder
+
     - Civi CRM Hilfen und Bedienanleitungen
     - Mitmachen und Zusammenarbeiten
     - ...
-- Informationen für Ernteteiler
+## Informationen für Ernteteiler
+
     - Depot Richtlinen
     - Ansprechpartner
     - ...
