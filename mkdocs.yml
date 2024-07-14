@@ -32,8 +32,5 @@ nav:
   - Für Mitglieder: 
     - Mitgliedschaft anlegen: fuer_mitglieder/mitgliedschaft_anlegen.md
 
-markdown_extensions: 
-  - neoteroi.cards
-
 plugins: 
   - search
