@@ -5,16 +5,14 @@ theme:
   name: material
   palette:
     # Palette toggle for dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate # default
+    - scheme: slate # default
       primary: green
       accent: orange
       toggle:
         icon: material/brightness-7 
         name: Switch to light mode
     # Palette toggle for light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
+    - scheme: default
       primary: green
       accent: orange
       toggle:
